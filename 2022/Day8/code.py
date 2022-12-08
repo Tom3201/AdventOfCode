@@ -1,6 +1,7 @@
 with open("data.txt") as f:
     data = f.read().splitlines()
 
+
 trees = []
 neighbors = [(0, 1), (0, -1), (1, 0), (-1, 0)]
 for line in data:
