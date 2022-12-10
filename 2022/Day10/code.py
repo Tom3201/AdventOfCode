@@ -24,12 +24,12 @@ for line in data:
         cycle += 1
         total = checkCycle(cycle, x, total)
     elif "add" in line:
-        a, b = line.split()
+        _, v = line.split()
         cycle += 1
         total = checkCycle(cycle, x, total)
         cycle += 1
         total = checkCycle(cycle, x, total)
-        x += int(b)
+        x += int(v)
 print(total)
 
 
