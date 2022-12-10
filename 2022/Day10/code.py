@@ -34,5 +34,5 @@ print(total)
 
 
 #Part2
-for a in range(6):
+for a in range(len(grid)):
     print(''.join(grid[a]))
